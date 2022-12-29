@@ -124,16 +124,23 @@ text-shadow: 0px 0px 23px #fff;
 
 /*RESPONSIVE & MEDIA QUERIES DO NOT TOUCH*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .body{
   position: absolute;
-  top: 78%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
-  .subtitle h1{
-    text-align: center;
-    font-size: 30px
+  .body h1{
+    text-align: auto;
+    font-size: 22px
+  }
+  
+  .links{
+  text-decoration: none;
+  color: #8DD9CC;
+  text-shadow: 0px 0px 23px #30BFBF;
+  font-size: 22px;
   }
 }
